@@ -14,7 +14,7 @@ function Home() {
         <img src="/bannerhome1.png" className='w-full lg:w-4/6 cursor-pointer' alt="hbybybv huhub" onClick={startnow} />
       </div>
       <div>
-        <div><h1 className='font-bold text-2xl sm:text-4xl text-center mb-3 sm:mt-5 text-transparent bg-clip-text text-gradient bg-gradient-to-r from-orange-500 to-black '>Elevate Customer <br className='block sm:hidden'/> Experience</h1></div>
+        <div><h1 className='font-bold text-3xl sm:text-4xl text-center mb-3 sm:mt-5 text-transparent bg-clip-text text-gradient bg-gradient-to-r from-orange-500 to-black '>Elevate Customer <br className='block sm:hidden' /> Experience</h1></div>
       </div>
       <div className='flex md:flex-row flex-col'>
         <img src="/Trackorder.png" className='w-full h-2/4 md:w-1/2 md:h-1/2' alt="trackorder" />
@@ -22,18 +22,18 @@ function Home() {
       </div>
 
       <div>
-        <div><h1 className='font-bold text-2xl sm:text-3xl text-center mb-3 mt-3 sm:mt-5'>What We Have<br className='block sm:hidden'/> Achieved?</h1></div>
+        <div><h1 className='font-bold text-3xl text-center mb-3 mt-7 '>What We Have<br className='block sm:hidden' /> Achieved?</h1></div>
       </div>
       <div className='flex md:flex-row flex-col'>
         <img src="/numbers.png" className='w-full h-3/5' alt="trackorder" />
         
       </div>
-      <div><h1 className='font-bold text-2xl sm:text-3xl text-center mt-5'>What Our Cient Says</h1></div>
+      <div><h1 className='font-bold text-2xl sm:text-3xl text-center mt-5 text-transparent bg-clip-text text-gradient bg-gradient-to-r from-orange-500 to-black'>What Our Cient Says</h1></div>
       <div className="my-slider mb-5 mx-auto">
         <div className="slider-container">
           <div className="slide-item">
             <div
-              className="flex flex-col gap-2 dark:text-white max-w-md w-11/12  bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md  duration-150"
+              className="flex flex-col gap-2 text-white max-w-md w-11/12 bg-neutral-900 p-5 rounded-md mt-8 shadow-md  duration-150"
             >
               <div className="flex flex-row justify-between w-full">
                 <div className="flex flex-row justify-between w-full">
@@ -89,7 +89,7 @@ function Home() {
           </div>
           <div className="slide-item">
             <div
-              className="flex flex-col gap-2 dark:text-white max-w-md w-11/12 bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md duration-150"
+              className="flex flex-col gap-2 text-white max-w-md w-11/12 bg-neutral-900 p-5 rounded-md mt-8 shadow-md duration-150"
             >
               <div className="flex flex-row justify-between w-full">
                 <div className="flex flex-row justify-between w-full">
@@ -149,14 +149,14 @@ function Home() {
               </div>
 
               <div className="text-sm">
-                amet consectetur ado ducimus, sunt dicta unde illum obcaecati beatae velit veritatis. Lorem, ipsum dolor.
+                amet consectetur ado ducimus, sunt dicta unde illum obcaecati beatae velit veritatis. Lorem, ipsum 
               </div>
             </div>
 
           </div>
           <div className="slide-item">
             <div
-              className="flex flex-col gap-2 dark:text-white max-w-md w-11/12 bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md "
+              className="flex flex-col gap-2 text-white max-w-md w-11/12 bg-neutral-900 p-5 rounded-md mt-8 shadow-md "
             >
               <div className="flex flex-row justify-between w-full">
                 <div className="flex flex-row justify-between w-full">
@@ -223,7 +223,7 @@ function Home() {
           </div>
           <div className="slide-item">
             <div
-              className="flex flex-col gap-2 dark:text-white max-w-md w-11/12 bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md"
+              className="flex flex-col gap-2 text-white max-w-md w-11/12 bg-neutral-900 p-5 rounded-md mt-8 shadow-md"
             >
               <div className="flex flex-row justify-between w-full">
                 <div className="flex flex-row justify-between w-full">
@@ -232,7 +232,7 @@ function Home() {
                 </div>
               </div>
               <div className="flex flex-row justify-between w-full">
-                <h3 className="text-xl font-bold">Great Experience!</h3>
+                <h3 className="text-md font-bold">Great Experience!</h3>
 
                 <div className="text-xs">
                   <div className="flex flex-row">
@@ -292,7 +292,7 @@ function Home() {
               </div>
 
               <div className="text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur culpa facilis reiciendis quis quidem
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur culpa facilis 
               </div>
             </div>
 

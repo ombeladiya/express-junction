@@ -103,7 +103,7 @@ export function Login() {
                 to="/signup"
                 className="font-semibold text-black transition-all duration-200 hover:underline"
               >
-                Create a free account
+                Create account
               </Link>
             </p>
             <form action="#" method="POST" className="mt-8">
@@ -147,7 +147,7 @@ export function Login() {
                 <div>
                   <button
                     type="button"
-                    className="inline-flex w-full items-center justify-center rounded-md bg-orange-600 px-3.5 py-1 font-semibold leading-7 text-white hover:bg-orange-500"
+                    className="inline-flex w-full items-center justify-center rounded-md bg-orange-600 px-3.5 py-2 sm:py-1 font-semibold leading-7 text-white hover:bg-orange-500"
                   >
                     log in <ArrowRight className="ml-2" size={16} />
                   </button>
