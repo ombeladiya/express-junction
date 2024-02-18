@@ -13,7 +13,7 @@ export function Footer() {
               <div>
                 <p className="mb-4  text-base font-medium">Ship smarter with our courier aggregator system</p>
                 <p className="text-sm text-gray-600">
-                  &copy; Copyright 2022. All Rights Reserved by ExpressJunction.
+                  &copy; Copyright 2024. All Rights Reserved by ExpressJunction.
                 </p>
               </div>
             </div>

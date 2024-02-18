@@ -28,7 +28,7 @@ function Home() {
         <img src="/numbers.png" className='w-full h-3/5' alt="trackorder" />
         
       </div>
-      <div><h1 className='font-bold text-2xl sm:text-3xl text-center mt-5 text-transparent bg-clip-text text-gradient bg-gradient-to-r from-orange-500 to-black'>What Our Cient Says</h1></div>
+      <div><h1 className='font-bold text-2xl sm:text-3xl text-center mt-5 text-transparent bg-clip-text text-gradient bg-gradient-to-r from-orange-500 to-black'>What Our Client Says</h1></div>
       <div className="my-slider mb-5 mx-auto">
         <div className="slider-container">
           <div className="slide-item">
