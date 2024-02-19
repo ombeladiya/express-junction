@@ -123,7 +123,7 @@ function Dashboard() {
             <Sidebar />
             <div className='w-4/5 flex flex-col max-h-screen overflow-y-scroll'>
                 <h2 className="text-3xl font-bold mx-auto mt-5">Dashboard</h2>
-                <div className='flex flex-row w-3/4 mx-auto my-8'>
+                <div className='flex flex-col sm:flex-row w-10/12 mx-auto my-8'>
                     <div className='w-40 h-40 flex mx-auto flex-col bg-orange-400 text-white rounded-full justify-center items-center font-semibold'><span className='text-3xl' >2M+</span><span className='mt-2'>User</span> </div>
                     <div className='w-40 h-40 flex flex-col mx-auto bg-gray-500 text-white rounded-full justify-center items-center font-semibold'><span className='text-3xl ' >289+</span><span className='mt-2 text-sm'>Delivery <br /> Partner</span> </div>
                     <div className='w-40 h-40 flex flex-col mx-auto bg-blue-500 text-white rounded-full justify-center items-center font-semibold'><span className='text-3xl ' >8.2M+</span><span className='mt-2'>Order <br />Delivered</span> </div>

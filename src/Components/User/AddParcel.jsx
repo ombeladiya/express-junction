@@ -90,7 +90,7 @@ function AddParcel() {
                                     <span
                                         className="ml-1 text-sm font-medium text-gray-900  md:ml-2"
                                     >
-                                        Confirmation
+                                        Payment Method
                                     </span>
                                 </div>
                             </li>
