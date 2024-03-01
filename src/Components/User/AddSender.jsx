@@ -14,24 +14,22 @@ export function AddSender() {
                 <nav className="mt-16 sm:flex hidden" aria-label="Breadcrumb">
                     <ol className="inline-flex items-center space-x-1 md:space-x-3">
                         <li className="inline-flex items-center">
-                            <Link
-                                to="/addorder"
-                                className="ml-1 inline-flex text-sm font-medium text-green-600 hover:underline md:ml-2"
+                            <span
+                                className="ml-1 inline-flex text-sm font-medium text-green-600 md:ml-2"
                             >
                                 <Home size={16} className="mr-2 text-gray-900" />
                                 Receiver's Information
-                            </Link>
+                            </span>
                         </li>
 
                         <li >
                             <div className="flex items-center">
                                 <ChevronRight size={16} className="mr-2 text-green-600" />
-                                <Link
-                                    to="/addsender"
-                                    className="ml-1 text-sm font-medium text-green-600 hover:underline md:ml-2"
+                                <span
+                                    className="ml-1 text-sm font-medium text-green-600  md:ml-2"
                                 >
                                     Sender's Information
-                                </Link>
+                                </span>
                             </div>
                         </li>
                         <li >

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Home, ChevronRight, CircleUserRound, Package } from 'lucide-react'
+import { Home, ChevronRight, Package } from 'lucide-react'
 import { Link, useNavigate } from "react-router-dom";
 
 function AddParcel() {
     const [elements, setElements] = useState([]);
-
-    // Function to add a new element
+    const navigate = useNavigate();
     const addElement = () => {
         const newElement = <div className="w-full py-3 sm:grid sm:grid-cols-2 px-3 gap-4"> <div className="w-full grid-cols-1">
             <label
@@ -44,24 +43,22 @@ function AddParcel() {
                     <nav className="mt-16 sm:flex hidden" aria-label="Breadcrumb">
                         <ol className="inline-flex items-center space-x-1 md:space-x-3">
                             <li className="inline-flex items-center">
-                                <Link
-                                    to="/addorder"
-                                    className="ml-1 inline-flex text-sm font-medium text-green-600 hover:underline md:ml-2"
+                                <span
+                                    className="ml-1 inline-flex text-sm font-medium text-green-600 md:ml-2"
                                 >
                                     <Home size={16} className="mr-2 text-green-600" />
                                     Riceiver's Information
-                                </Link>
+                                </span>
                             </li>
 
                             <li >
                                 <div className="flex items-center">
                                     <ChevronRight size={16} className="mr-2 text-green-600" />
-                                    <Link
-                                        to="/addsender"
-                                        className="ml-1 text-sm font-medium text-green-600 hover:underline md:ml-2"
+                                    <span
+                                        className="ml-1 text-sm font-medium text-green-600 md:ml-2"
                                     >
                                         Sender's Information
-                                    </Link>
+                                    </span>
                                 </div>
                             </li>
                             <li >
@@ -155,6 +152,7 @@ function AddParcel() {
                                     Add Another Parcel
                                 </button>
                                 <button
+                                    onClick={() => navigate('/choose-delivery-company')}
                                     type="button"
                                     className="w-full sm:w-56 h-10 rounded-md bg-orange-600 px-3 mt-5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                                 >

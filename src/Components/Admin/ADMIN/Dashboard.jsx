@@ -98,7 +98,7 @@ export const options3 = {
         subtitle: "in millions",
     },
     colors: ["#0601FF"],
-    curveType: 'function',
+    curveType: 'function'
 };
 
 export const data4 = [
